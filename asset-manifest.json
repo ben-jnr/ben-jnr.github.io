@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/ben-jnr.github.io/static/css/main.8a12a4b0.chunk.css",
+    "main.js": "/ben-jnr.github.io/static/js/main.baa27789.chunk.js",
+    "main.js.map": "/ben-jnr.github.io/static/js/main.baa27789.chunk.js.map",
+    "runtime-main.js": "/ben-jnr.github.io/static/js/runtime-main.7a45185d.js",
+    "runtime-main.js.map": "/ben-jnr.github.io/static/js/runtime-main.7a45185d.js.map",
+    "static/js/2.5a86a86a.chunk.js": "/ben-jnr.github.io/static/js/2.5a86a86a.chunk.js",
+    "static/js/2.5a86a86a.chunk.js.map": "/ben-jnr.github.io/static/js/2.5a86a86a.chunk.js.map",
+    "index.html": "/ben-jnr.github.io/index.html",
+    "static/css/main.8a12a4b0.chunk.css.map": "/ben-jnr.github.io/static/css/main.8a12a4b0.chunk.css.map",
+    "static/js/2.5a86a86a.chunk.js.LICENSE.txt": "/ben-jnr.github.io/static/js/2.5a86a86a.chunk.js.LICENSE.txt",
+    "static/media/c.bbbbbabc.png": "/ben-jnr.github.io/static/media/c.bbbbbabc.png",
+    "static/media/codechef.4ab9c891.png": "/ben-jnr.github.io/static/media/codechef.4ab9c891.png",
+    "static/media/codeforces.8a0334e1.png": "/ben-jnr.github.io/static/media/codeforces.8a0334e1.png",
+    "static/media/cpp.c0a0d2fd.png": "/ben-jnr.github.io/static/media/cpp.c0a0d2fd.png",
+    "static/media/js.266bd9fb.png": "/ben-jnr.github.io/static/media/js.266bd9fb.png",
+    "static/media/linux.2c949e07.png": "/ben-jnr.github.io/static/media/linux.2c949e07.png",
+    "static/media/mongo.8cf84c7c.png": "/ben-jnr.github.io/static/media/mongo.8cf84c7c.png",
+    "static/media/mysql.ef465e62.png": "/ben-jnr.github.io/static/media/mysql.ef465e62.png",
+    "static/media/node.b235615d.png": "/ben-jnr.github.io/static/media/node.b235615d.png",
+    "static/media/profile.33e442a2.jpg": "/ben-jnr.github.io/static/media/profile.33e442a2.jpg",
+    "static/media/react.80045de7.png": "/ben-jnr.github.io/static/media/react.80045de7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a45185d.js",
+    "static/js/2.5a86a86a.chunk.js",
+    "static/css/main.8a12a4b0.chunk.css",
+    "static/js/main.baa27789.chunk.js"
+  ]
+}
