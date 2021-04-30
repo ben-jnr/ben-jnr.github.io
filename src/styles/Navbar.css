@@ -1,0 +1,144 @@
+#PhoneNav {
+    display: none;
+}
+
+#PhoneMenu {
+    display: none;
+}
+
+#Navbar {
+    background-color: rgba(30,30,30,1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left:25vw;
+    padding-right:25vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    width: 50vw;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.1em;
+    z-index: 1000;
+    position: fixed;
+    letter-spacing: 1.5px;
+}
+
+.NavItem {
+    text-align: center;
+    height: 3vw;
+    line-height: 3vw;
+    text-decoration: none;
+    background-image: linear-gradient(tomato, tomato);
+    background-size: 0% 0.15em;
+    background-position-y: 100%;
+    background-position-x: 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.2s ease-in-out;
+    color:whitesmoke;
+}
+
+.NavItem:hover{
+    background-position-x: 0%;
+    background-size: 100% 2px;
+    color:tomato;
+}
+
+.ActiveNav{
+    color:tomato
+}
+
+
+
+@media screen and (min-width:500px) and (max-width:750px) {
+    #Navbar {
+        padding-left:5vw;
+        padding-right:8vw;
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+        width: 90vw;
+    }
+
+    .NavItem {
+        line-height: 5vw;
+        height: 5vw;
+    }
+}
+
+
+@media screen and (min-width:751px) and (max-width:900px) {
+    #Navbar {
+        padding-left:15vw;
+        padding-right: 15vw;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+        width: 70vw;
+    }
+}
+
+
+
+@media screen and (max-width:500px) {
+    
+    #Navbar {
+        display: none;
+    }
+    
+    
+    #PhoneNav {
+        display: block;
+        width:100%;
+        background-color: rgba(30,30,30,1);
+        padding:15px;
+        position: fixed;
+        z-index: 2000;
+    }
+
+    .NavItem {
+        font-size: 0.9em;
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+
+    .Nav3Bars {
+        color:rgba(245, 245, 245, 1);
+        font-size: 1.2em;
+        width:15px;
+        margin:3px;
+    }
+
+    .Nav3BarsButton {
+        width: fit-content;
+        height:fit-content;
+        border-radius:5px;
+        background-color: transparent;
+        text-align: center;
+        border-color: whitesmoke;
+    }
+
+
+    #PhoneMenu {
+        display: block;
+        width:50%;
+        height:109.5vh;
+        position: fixed;
+        padding-top:50px;
+        margin-top:10px;
+        left:-50%;
+        background-color: rgba(30,30,30,1); 
+        font-family: 'Questrial', sans-serif;
+        font-size: 1.1em;
+        z-index: 1000;
+        letter-spacing: 1.5px;
+        transition: left 0.3s ease-in-out;
+    }
+
+    .NavItem {
+        width:100%;
+        float: left;
+        text-align: center;
+        height:10vw;
+        line-height: 10vw;
+        transition: background-size 0.3s ease-in-out;
+    }
+
+}

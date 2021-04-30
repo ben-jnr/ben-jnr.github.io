@@ -1,0 +1,402 @@
+#Home {
+    padding-top:60px;
+    width:100vw;
+    height:100vh;
+    background-color: rgba(0,0,0,0.93);
+    letter-spacing: 1.5px;
+}
+
+#Intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90vw;
+    padding-top: 120px;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.3em;
+}
+
+#IntroLeft {
+    font-family: 'Questrial', sans-serif;
+    width:50%;
+    padding-left: 10% ;
+    padding-right:20px;
+    height: fit-content;
+    padding-top:70px;
+}
+
+#Name {
+    font-size:2.4em;
+    padding-top:20px;
+    color:tomato;
+    font-family: 'Kameron', serif;
+    letter-spacing: 2px;
+}
+
+#Tagline {
+    font-size: 1.2em;
+    padding-top: 20px;
+}
+
+.Tag {
+    color:whitesmoke !important;
+    position: absolute;
+    text-decoration: none;
+    line-height: 3vw;
+    background-image: linear-gradient(tomato, tomato);
+    background-size: 20px 0.15em;
+    background-position-y: 100%;
+    background-position-x: 0%;
+    background-repeat: no-repeat;
+}
+
+.Tag1 {
+    opacity:0%;
+    animation: Tag1Visible 10s infinite ease-in-out;
+    color:whitesmoke;
+} 
+
+.Tag2 {
+    opacity:0%;
+    animation: Tag2Visible 10s infinite ease-in-out;
+    color:whitesmoke;
+}
+
+.Tag3 {
+    opacity:0%;
+    animation: Tag3Visible 10s infinite ease-in-out;
+    color:whitesmoke;
+}
+
+@keyframes Tag1Visible {
+    0% {opacity:100%;background-position-x: 0%;color:whitesmoke;}
+    32% {opacity:100%;color:whitesmoke;}
+    33% {opacity:0%;background-position-x: 100%;}
+    99% {opacity:0%;}
+    100% {opacity:100%;}
+}
+
+@keyframes Tag2Visible {
+    0% {opacity:0%;}
+    33% {opacity:0%;}
+    34% {opacity:100%;background-position-x: 0%;color:whitesmoke;}
+    65% {opacity:100%;color:whitesmoke;}
+    66% {opacity:0%;background-position-x: 100%;}
+    100% {opacity:0%;}
+}
+
+@keyframes Tag3Visible {
+    0% {opacity:0%;}
+    66% {opacity:0%;}
+    67% {opacity:100%;background-position-x: 0%;color:whitesmoke;}
+    98% {opacity:100%;color:whitesmoke;}
+    99% {opacity:0%;background-position-x: 100%;}
+}
+
+
+#IntroRight{
+    width:40%;
+    padding-top: 15px;
+}
+
+#ProfileImgContainer {
+    background-image:linear-gradient(90deg, tomato,whitesmoke);
+    border-radius:200px;
+    width: 70%;
+    margin-left: 0;
+    padding: 1.5%;
+    
+}
+
+#ProfileImgContainer:hover{
+    animation-name:RotatingGradient;
+    animation-duration: 0.4s;
+}
+
+@keyframes RotatingGradient {
+    0% {background-image:linear-gradient(90deg, tomato, whitesmoke);}
+    5% {background-image:linear-gradient(108deg, tomato, whitesmoke);}
+    10% {background-image:linear-gradient(126deg, tomato, whitesmoke);}
+    15% {background-image:linear-gradient(144eg, tomato, whitesmoke);}
+    20% {background-image:linear-gradient(162deg, tomato, whitesmoke);}
+    25% {background-image:linear-gradient(180deg, tomato, whitesmoke);}
+    30% {background-image:linear-gradient(198deg, tomato, whitesmoke);}
+    35% {background-image:linear-gradient(216deg, tomato, whitesmoke);}
+    40% {background-image:linear-gradient(234deg, tomato, whitesmoke);}
+    45% {background-image:linear-gradient(252deg, tomato, whitesmoke);}
+    50% {background-image:linear-gradient(270deg, tomato, whitesmoke);}
+    55% {background-image:linear-gradient(288deg, tomato, whitesmoke);}
+    60% {background-image:linear-gradient(306deg, tomato, whitesmoke);}
+    65% {background-image:linear-gradient(324deg, tomato, whitesmoke);}
+    70% {background-image:linear-gradient(342deg, tomato, whitesmoke);}
+    75% {background-image:linear-gradient(360deg, tomato, whitesmoke);}
+    80% {background-image:linear-gradient(18deg, tomato, whitesmoke);}
+    85% {background-image:linear-gradient(36deg, tomato, whitesmoke);}
+    90% {background-image:linear-gradient(54deg, tomato, whitesmoke);}
+    95% {background-image:linear-gradient(72deg, tomato, whitesmoke);}
+    100% {background-image:linear-gradient(90deg, tomato, whitesmoke);}
+}
+
+
+#ProfileImg{
+    width: 100%;
+    border-radius: 200px;
+    margin:auto;
+}
+
+.Social {
+    padding-top: 70px;
+    display: flex;
+    width:37%;
+    margin-right: auto;
+
+}
+
+.SocialItems, i {
+    font-size: 1.2em;
+    width:25%;
+    color:whitesmoke;
+}
+
+.SocialIcon:hover{
+    color:tomato !important;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1300px) and (min-width: 1000px) {
+
+    #Intro {
+       width:95vw;
+        padding-top: 100px !important;
+        font: size 1.2em;
+    }
+
+    .Tag {
+        line-height: 4vw;
+    }
+
+}
+
+
+@media screen and (max-width: 400px) {
+    #Intro {
+        width:100vw;
+        font-size:1.1em;
+        display: grid;
+        grid-template-rows: auto atuo;
+        height:fit-content;
+        margin-top:40px;
+        padding-top:100px !important;
+    }
+
+    #IntroLeft {
+        width:90%;
+        padding-top:30px;
+        padding-left:0;
+        margin-left:4%;
+        text-align: center;
+        grid-row: 2/2;
+        
+    }
+
+    #IntroRight{
+        width:90vw;
+        grid-row:1/2;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:-17vh;
+    }
+    
+    #ProfileImgContainer {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #Name {
+        font-size:2em;
+        letter-spacing: 1.5px;
+        margin-left:auto;
+        margin-right:auto;
+        text-align: center;
+
+    }
+    
+    #Tagline {
+        font-size: 1em;
+        padding-top: 20px;
+        text-align: center;
+    }
+    
+    .Tag {
+        line-height: 10vw;
+        background-image: none;
+        width:95vw;
+        text-align: center;
+        margin-left:-2vw;
+    }
+    
+    .Social {
+        margin-right: auto;
+        margin-left: auto;
+        width:50%;
+    }
+    
+    .SocialItems, i {
+        font-size: 1.1em;
+        text-align: center;
+    }
+    
+}
+
+
+
+
+@media screen and (min-width: 401px) and (max-width:500px) {
+    #Intro {
+        width:100vw;
+        font-size:1.1em;
+        display: grid;
+        grid-template-rows: auto atuo;
+        height:fit-content;
+        margin-top:40px;
+        padding-top:100px !important;
+    }
+
+    #IntroLeft {
+        width:90%;
+        padding-top:30px;
+        padding-left:0;
+        margin-left:4%;
+        text-align: center;
+        grid-row: 2/2;
+        
+    }
+
+    #IntroRight{
+        width:90vw;
+        grid-row:1/2;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:-17vh;
+    }
+    
+    #ProfileImgContainer {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #Name {
+        font-size:2em;
+        letter-spacing: 1.5px;
+        margin-left:auto;
+        margin-right:auto;
+        text-align: center;
+
+    }
+    
+    #Tagline {
+        font-size: 1em;
+        padding-top: 20px;
+        text-align: center;
+    }
+    
+    .Tag {
+        line-height: 10vw;
+        background-image: none;
+        width:95vw;
+        text-align: center;
+        margin-left:-8vw;
+    }
+    
+    .Social {
+        margin-right: auto;
+        margin-left: auto;
+        width:50%;
+    }
+    
+    .SocialItems, i {
+        font-size: 1.1em;
+        text-align: center;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width: 999px) and (min-width: 501px)  {
+    #Intro {
+        width:100vw;
+        font-size:1.2em;
+        display: grid;
+        grid-template-rows: auto atuo;
+        height:fit-content;
+        margin-top:0px;
+        padding-top:130px !important;
+    }
+
+    #IntroLeft {
+        width:95%;
+        padding-top:30px;
+        padding-left:0;
+        margin:auto;
+        text-align: center;
+        grid-row: 2/2;
+        
+    }
+
+    #IntroRight{
+        width:90vw;
+        grid-row:1/2;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:-17vh;
+    }
+    
+    #ProfileImgContainer {
+        width:30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #Name {
+        font-size:2em;
+        letter-spacing: 1.5px;
+        margin-left:auto;
+        margin-right:auto;
+        text-align: center;
+
+    }
+    
+    #Tagline {
+        font-size: 1em;
+        padding-top: 20px;
+        text-align: center;
+    }
+    
+    .Tag {
+        line-height: 3vw;
+        background-image: none;
+        width:90%;
+        margin-left:-20px;   
+        text-align: center;
+        padding-top:10px;
+    }
+    
+    .Social {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .SocialItems, i {
+        font-size: 1.1em;
+    }
+    
+}
