@@ -88,9 +88,10 @@
         display: block;
         width:100%;
         background-color: rgba(30,30,30,1);
-        padding:15px;
         position: fixed;
         z-index: 2000;
+        padding-top:20px;
+        padding-bottom:20px;
     }
 
     .NavItem {
@@ -103,7 +104,7 @@
         color:rgba(245, 245, 245, 1);
         font-size: 1.2em;
         width:15px;
-        margin:4px;
+        margin:5px;
     }
 
     .Nav3BarsButton {
@@ -113,6 +114,7 @@
         background-color: transparent;
         text-align: center;
         border-color: whitesmoke;
+        margin-left:20px;
     }
 
     .Nav3BarsButton:focus {
@@ -126,7 +128,7 @@
         height:109.5vh;
         position: fixed;
         padding-top:50px;
-        margin-top:10px;
+        margin-top:15px;
         left:-50%;
         background-color: rgba(30,30,30,1); 
         font-family: 'Questrial', sans-serif;

@@ -2,7 +2,7 @@
     background-color:rgba(0,0,0,0.93);
     padding-top: 60px;
     padding-bottom: 70px;
-    width:101vw;
+    width:100vw;
     margin-left:0 ;
     height:fit-content;
     letter-spacing: 1.5px;
@@ -15,7 +15,7 @@
     text-align: center;
     color:tomato;
     font-family: 'Kameron', serif;
-    width:101vw;
+    width:100vw;
     letter-spacing: 1px !important;
     padding-bottom: 0px;
 }
@@ -31,7 +31,7 @@
 
 #ContactSocial {
     margin-top:-80px; 
-    margin-left:42%;
+    margin-left:42.3%;
     width:15% !important;
     text-align: center  ;
 }
@@ -53,7 +53,7 @@
     
     #ContactSocial {
         width:45% !important;
-        margin-left:26%;
+        margin-left:27.5%;
         margin-top:-50px !important;
     }
 

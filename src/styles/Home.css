@@ -1,7 +1,7 @@
 #Home {
     padding-top:10vh;
     padding-bottom:25vh;
-    width:101vw;
+    width:100vw;
     height:fit-content;
     background-color: rgba(0,0,0,0.93);
     letter-spacing: 1.5px;
@@ -148,7 +148,7 @@
 }
 
 .Social {
-    padding-top: 120px;
+    padding-top: 110px;
     display: flex;
     width:37%;
     margin-right: auto;
@@ -193,6 +193,10 @@
     #ProfileImgContainer:hover{
         animation-name:RotatingGradient;
         animation-duration: 0.4s;
+    }
+
+    .Social {
+        padding-top:110px;
     }
 
 }
@@ -377,6 +381,10 @@
     #ProfileImgContainer:hover{
         animation-name:RotatingGradient;
         animation-duration: 0.4s;
+    }
+
+    .Social {
+        padding-top:100px;
     }
 
 }
