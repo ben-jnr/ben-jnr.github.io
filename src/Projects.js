@@ -12,7 +12,7 @@ function Projects() {
 
                 <div className="ProjectsLeft">
                     <div className = "ProjectContainer">
-                        <div className = "ProjectContainerHeading"><strong> Covid Care </strong></div>
+                        <div className = "ProjectContainerHeading"><a href="https://github.com/ben-jnr/quarantine"><strong> Covid Care </strong></a></div>
                         <div className = "ProjectDesc">
                             <p>
                                 A web app developed using react.js, node.js, express and mongoDB.
@@ -31,7 +31,7 @@ function Projects() {
 
                 <div className="ProjectsMiddle">
                     <div className = "ProjectContainer">
-                        <div className = "ProjectContainerHeading"><strong> Fantasy Premier League </strong></div>
+                        <div className = "ProjectContainerHeading"><a href="https://github.com/ben-jnr/fantasy-premier-league"><strong> Fantasy Premier League </strong></a></div>
                         <div className = "ProjectDesc">
                             <p>
                                 A web app developed using react.js, node.js, express and cheerio.js 
@@ -49,7 +49,7 @@ function Projects() {
 
                 <div className="ProjectsRight">
                     <div className = "ProjectContainer">
-                        <div className = "ProjectContainerHeading"><strong> Web Scraping </strong></div>
+                        <div className = "ProjectContainerHeading"><a href="https://github.com/ben-jnr/python-scripting"><strong> Web Scraping </strong></a></div>
                         <div className = "ProjectDesc">
                             <p>
                                 I have developed a couple of scripts, both web scraping based, 

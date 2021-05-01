@@ -50,6 +50,10 @@
     font-size:17px;
     text-align: center;
     padding-top:30px;
+    color:tomato !important;
+}
+
+.ProjectContainerHeading a {
     color:tomato;
 }
 
