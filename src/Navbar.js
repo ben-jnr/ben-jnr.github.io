@@ -1,22 +1,33 @@
-import { useEffect } from "react";
+import { useEffect , useState} from "react";
 import "./styles/Navbar.css";
 
+
 function Navbar() {
+
+    const [flag,setFlag] = useState(0);
 
     function clickHandler(id) {
         window.scrollTo(0,document.getElementById(id).offsetTop-100);
         document.getElementsByClassName("ActiveNav")[0].classList.remove("ActiveNav");
         document.getElementsByClassName(id+ "Nav")[0].classList.add("ActiveNav");
-        document.getElementById("PhoneMenu").style.left = "-50%";
+        setFlag(0);
     }
 
 
     function NavVisisble() {
         if(document.getElementById("PhoneMenu").style.left === "-50%")
-            document.getElementById("PhoneMenu").style.left = "0%";
+            setFlag(1);
         else
+            setFlag(0);
+    }   
+
+
+    useEffect(()=>{
+        if(flag == 1)
+            document.getElementById("PhoneMenu").style.left = "0%";
+        else    
             document.getElementById("PhoneMenu").style.left = "-50%";
-    }
+    },[flag])
 
 
     useEffect(()=>{
@@ -54,7 +65,7 @@ function Navbar() {
         <div>
             
             <div id="PhoneNav">
-                <button className="Nav3BarsButton" onClick={NavVisisble}>
+                <button className="Nav3BarsButton" onClick={(e) => NavVisisble()}>
                     <i className="fas fa-bars Nav3Bars"></i>
                 </button>
             </div>

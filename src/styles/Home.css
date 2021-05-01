@@ -12,7 +12,7 @@
     flex-direction: row;
     justify-content: space-around;
     width: 90vw;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left:auto;
     margin-right:auto;
     font-family: 'Questrial', sans-serif;
@@ -24,7 +24,7 @@
     padding-left: 10% ;
     padding-right:20px;
     height: fit-content;
-    padding-top:70px;
+    padding-top:60px;
 }
 
 #Name {
@@ -206,7 +206,7 @@
 @media screen and (max-width:500px) {
    
     #Home {
-        padding-bottom:100px;
+        padding-bottom:140px;
     }
    
     #Intro {
