@@ -115,6 +115,10 @@
         border-color: whitesmoke;
     }
 
+    .Nav3BarsButton:focus {
+        outline: none;
+        box-shadow: none;
+      }
 
     #PhoneMenu {
         display: block;

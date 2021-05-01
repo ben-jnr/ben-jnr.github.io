@@ -38,44 +38,44 @@
 #Tagline {
     font-size: 1.2em;
     padding-top: 20px;
+    width:30vw;
+    height: 30px;
+    position: absolute;
+
 }
 
 .Tag {
     color:whitesmoke !important;
     position: absolute;
-    text-decoration: none;
+    width:fit-content;
+    height: 100%;
     line-height: 3vw;
-    background-image: linear-gradient(tomato, tomato);
-    background-size: 20px 0.15em;
-    background-position-y: 100%;
-    background-position-x: 0%;
-    background-repeat: no-repeat;
 }
 
 .Tag1 {
     opacity:0%;
-    animation: Tag1Visible 10s infinite ease-in-out;
-    -webkit-animation: Tag1Visible 10s infinite ease-in-out;
-    -moz-animation: Tag1Visible 10s infinite ease-in-out;
-    -o-animation: Tag1Visible 10s infinite ease-in-out;
+    animation: Tag1Visible 7s infinite ease-in-out;
+    -webkit-animation: Tag1Visible 7s infinite ease-in-out;
+    -moz-animation: Tag1Visible 7s infinite ease-in-out;
+    -o-animation: Tag1Visible 7s infinite ease-in-out;
     color:whitesmoke;
 } 
 
 .Tag2 {
     opacity:0%;
-    animation: Tag2Visible 10s infinite ease-in-out;
-    -webkit-animation: Tag2Visible 10s infinite ease-in-out;
-    -moz-animation: Tag2Visible 10s infinite ease-in-out;
-    -o-animation: Tag2Visible 10s infinite ease-in-out;
+    animation: Tag2Visible 7s infinite ease-in-out;
+    -webkit-animation: Tag2Visible 7s infinite ease-in-out;
+    -moz-animation: Tag2Visible 7s infinite ease-in-out;
+    -o-animation: Tag2Visible 7s infinite ease-in-out;
     color:whitesmoke;
 }
 
 .Tag3 {
     opacity:0%;
-    animation: Tag3Visible 10s infinite ease-in-out;
-    -webkit-animation: Tag3Visible 10s infinite ease-in-out;
-    -moz-animation: Tag3Visible 10s infinite ease-in-out;
-    -o-animation: Tag3Visible 10s infinite ease-in-out;
+    animation: Tag3Visible 7s infinite ease-in-out;
+    -webkit-animation: Tag3Visible 7s infinite ease-in-out;
+    -moz-animation: Tag3Visible 7s infinite ease-in-out;
+    -o-animation: Tag3Visible 7s infinite ease-in-out;
     color:whitesmoke;
 }
 
@@ -156,7 +156,7 @@
 }
 
 .Social {
-    padding-top: 70px;
+    padding-top: 100px;
     display: flex;
     width:37%;
     margin-right: auto;
@@ -201,7 +201,7 @@
         display: grid;
         grid-template-rows: auto atuo;
         height:fit-content;
-        margin-top:40px;
+        margin-top:60px;
         padding-top:100px !important;
     }
 
@@ -274,7 +274,7 @@
         display: grid;
         grid-template-rows: auto atuo;
         height:fit-content;
-        margin-top:40px;
+        margin-top:60px;
         padding-top:100px !important;
     }
 
