@@ -1,7 +1,8 @@
 #Home {
-    padding-top:60px;
-    width:100vw;
-    height:100vh;
+    padding-top:10vh;
+    padding-bottom:25vh;
+    width:101vw;
+    height:fit-content;
     background-color: rgba(0,0,0,0.93);
     letter-spacing: 1.5px;
 }
@@ -38,70 +39,62 @@
 #Tagline {
     font-size: 1.2em;
     padding-top: 20px;
-    width:30vw;
-    height: 30px;
-    position: absolute;
-
 }
 
 .Tag {
     color:whitesmoke !important;
     position: absolute;
-    width:fit-content;
-    height: 100%;
+    text-decoration: none;
     line-height: 3vw;
+    background-image: linear-gradient(tomato, tomato);
+    background-size: 20px 0.15em;
+    background-position-y: 100%;
+    background-position-x: 0%;
+    background-repeat: no-repeat;
+    display: block;
 }
 
 .Tag1 {
-    opacity:0%;
-    animation: Tag1Visible 7s infinite ease-in-out;
-    -webkit-animation: Tag1Visible 7s infinite ease-in-out;
-    -moz-animation: Tag1Visible 7s infinite ease-in-out;
-    -o-animation: Tag1Visible 7s infinite ease-in-out;
+    visibility:hidden;
+    animation: Tag1Visible 10s infinite ease-in-out;
     color:whitesmoke;
 } 
 
 .Tag2 {
-    opacity:0%;
-    animation: Tag2Visible 7s infinite ease-in-out;
-    -webkit-animation: Tag2Visible 7s infinite ease-in-out;
-    -moz-animation: Tag2Visible 7s infinite ease-in-out;
-    -o-animation: Tag2Visible 7s infinite ease-in-out;
+    visibility:hidden;
+    animation: Tag2Visible 10s infinite ease-in-out;
     color:whitesmoke;
 }
 
 .Tag3 {
-    opacity:0%;
-    animation: Tag3Visible 7s infinite ease-in-out;
-    -webkit-animation: Tag3Visible 7s infinite ease-in-out;
-    -moz-animation: Tag3Visible 7s infinite ease-in-out;
-    -o-animation: Tag3Visible 7s infinite ease-in-out;
+    visibility:hidden;
+    animation: Tag3Visible 10s infinite ease-in-out;
     color:whitesmoke;
 }
 
 @keyframes Tag1Visible {
-    0% {opacity:100%;background-position-x: 0%;color:whitesmoke;}
-    32% {opacity:100%;color:whitesmoke;}
-    33% {opacity:0%;background-position-x: 100%;}
-    99% {opacity:0%;}
-    100% {opacity:100%;}
+    0% {visibility:visible;background-position-x: 0%;color:whitesmoke;}
+    32% {visibility:visible;color:whitesmoke;}
+    33% {visibility:hidden;background-position-x: 100%;}
+    99% {visibility:hidden;}
+    100% {visibility:visible;}
 }
 
 @keyframes Tag2Visible {
-    0% {opacity:0%;}
-    33% {opacity:0%;}
-    34% {opacity:100%;background-position-x: 0%;color:whitesmoke;}
-    65% {opacity:100%;color:whitesmoke;}
-    66% {opacity:0%;background-position-x: 100%;}
-    100% {opacity:0%;}
+    0% {visibility:hidden;}
+    33% {visibility:hidden;}
+    34% {visibility:visible;background-position-x: 0%;color:whitesmoke;}
+    65% {visibility:visible;color:whitesmoke;}
+    66% {visibility:hidden;background-position-x: 100%;}
+    100% {visibility:hidden;}
 }
 
 @keyframes Tag3Visible {
-    0% {opacity:0%;}
-    66% {opacity:0%;}
-    67% {opacity:100%;background-position-x: 0%;color:whitesmoke;}
-    98% {opacity:100%;color:whitesmoke;}
-    99% {opacity:0%;background-position-x: 100%;}
+    0% {visibility:hidden;}
+    66% {visibility:hidden;}
+    67% {visibility:visible;background-position-x: 0%;color:whitesmoke;}
+    98% {visibility:visible;color:whitesmoke;}
+    99% {visibility:hidden;background-position-x: 100%;}
 }
 
 
@@ -156,7 +149,7 @@
 }
 
 .Social {
-    padding-top: 100px;
+    padding-top: 80px;
     display: flex;
     width:37%;
     margin-right: auto;
@@ -194,14 +187,14 @@
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 394px) {
     #Intro {
         width:100vw;
         font-size:1.1em;
         display: grid;
         grid-template-rows: auto atuo;
         height:fit-content;
-        margin-top:60px;
+        margin-top:40px;
         padding-top:100px !important;
     }
 
@@ -255,6 +248,8 @@
         margin-right: auto;
         margin-left: auto;
         width:50%;
+        padding-top: 60px;
+
     }
     
     .SocialItems, i {
@@ -267,14 +262,14 @@
 
 
 
-@media screen and (min-width: 401px) and (max-width:500px) {
+@media screen and (min-width: 395px) and (max-width:500px) {
     #Intro {
         width:100vw;
         font-size:1.1em;
         display: grid;
         grid-template-rows: auto atuo;
         height:fit-content;
-        margin-top:60px;
+        margin-top:40px;
         padding-top:100px !important;
     }
 
@@ -328,6 +323,8 @@
         margin-right: auto;
         margin-left: auto;
         width:50%;
+        padding-top: 60px;
+
     }
     
     .SocialItems, i {
