@@ -1,6 +1,6 @@
 #Home {
-    padding-top:10vh;
-    padding-bottom:25vh;
+    padding-top:70px;
+    padding-bottom:200px;
     width:100vw;
     height:fit-content;
     background-color: rgba(0,0,0,0.93);
@@ -12,7 +12,7 @@
     flex-direction: row;
     justify-content: space-around;
     width: 90vw;
-    padding-top: 120px;
+    margin-top: 2vh;
     margin-left:auto;
     margin-right:auto;
     font-family: 'Questrial', sans-serif;
@@ -101,7 +101,6 @@
 
 #IntroRight{
     width:40%;
-    padding-top: 15px;
 }
 
 #ProfileImgContainer {
@@ -209,7 +208,7 @@
 @media screen and (max-width:500px) {
    
     #Home {
-        padding-bottom:15vh;
+        padding-bottom:100px;
     }
    
     #Intro {
@@ -219,14 +218,14 @@
         grid-template-rows: auto atuo;
         height:fit-content;
         margin-top:70px;
-        padding-top:100px !important;
+        padding-top:px !important;
     }
 
     #IntroLeft {
-        width:90%;
-        padding-top:30px;
+        width:85%;
+        padding-top:20px;
         padding-left:0;
-        margin-left:4%;
+        margin-left:7.5%;
         text-align: center;
         grid-row: 2/2;
         
@@ -237,7 +236,6 @@
         grid-row:1/2;
         margin-left:auto;
         margin-right:auto;
-        margin-top:-17vh;
     }
     
     #ProfileImgContainer {
@@ -309,8 +307,7 @@
         display: grid;
         grid-template-rows: auto atuo;
         height:fit-content;
-        margin-top:0px;
-        padding-top:130px !important;
+        margin-top:100px;
     }
 
     #IntroLeft {
@@ -328,11 +325,10 @@
         grid-row:1/2;
         margin-left:auto;
         margin-right:auto;
-        margin-top:-17vh;
     }
     
     #ProfileImgContainer {
-        width:30%;
+        width:40%;
         margin-left: auto;
         margin-right: auto;
         padding: 1%;
