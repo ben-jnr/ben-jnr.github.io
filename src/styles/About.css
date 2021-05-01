@@ -131,7 +131,11 @@
 @media screen and (min-width:501px)  and (max-width:1000px){
     #AboutContent {
         width:80%;
-        font-size:15px;
+        font-size:13px;
+    }
+
+    #AboutHeading {
+        font-size:24px;
     }
 
     #CV {

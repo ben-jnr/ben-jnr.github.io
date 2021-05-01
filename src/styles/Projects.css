@@ -35,7 +35,7 @@
 
 .ProjectContainer {
     width:24vw !important;
-    height:400px;
+    height:470px;
     background-color: rgba(30,30,30,0.03);
     border-radius: 15px;
     margin-top:40px;
@@ -63,6 +63,7 @@
     text-align: left;
     font-family: 'Questrial', sans-serif;
     font-size: 15px;
+    line-height: 25px;
 }
 
 
@@ -111,6 +112,11 @@
         margin:0;
     }
 
+    #ProjectsHeading{
+        font-size:24px;
+    }
+    
+
     .ProjectContainer {
         width:80vw !important;
         height:fit-content;
@@ -121,10 +127,22 @@
         padding-bottom:20px;
     }
 
+    .ProjectContainerHeading {
+        font-size: 15px;
+    }
+
+    .ProjectDesc{
+        font-size: 13px;
+    }
+
 }
 
 @media screen and (min-width:751px) and (max-width:1000px){
 
+    #ProjectsHeading{
+        font-size:24px;
+    }
+    
     .ProjectsDivide {
         display: block;
         width:100%;
@@ -140,13 +158,21 @@
         padding-bottom:20px;
     }
 
+    .ProjectContainerHeading {
+        font-size: 15px;
+    }
+
+    .ProjectDesc{
+        font-size: 13px;
+    }
+
 }
 
 
 @media screen and (min-width:1001px) and (max-width:1200px){
 
     .ProjectContainer {
-        height:480px;
+        height:530px;
     }
 
 }

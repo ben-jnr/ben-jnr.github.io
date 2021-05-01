@@ -166,16 +166,11 @@
 
 
 
-@media screen and (min-width:1300px) {
-    #ProfileImgContainer:hover{
-        animation-name:RotatingGradient;
-        animation-duration: 0.4s;
-    }
-}
 
 
 
-@media screen and (max-width: 1300px) and (min-width: 1000px) {
+
+@media screen and (max-width: 1300px) and (min-width: 1001px) {
 
     #Intro {
         width:95vw;
@@ -296,7 +291,7 @@
 
 
 
-@media screen and (max-width: 999px) and (min-width: 501px)  {
+@media screen and (max-width: 1000px) and (min-width: 501px)  {
     
     
     #Intro {
@@ -334,7 +329,7 @@
 
   
     #Name {
-        font-size:2em;
+        font-size:36px;
         letter-spacing: 1.5px;
         margin-left:auto;
         margin-right:auto;
@@ -344,28 +339,29 @@
     
     #Tagline {
         font-size: 20px;
-        padding-top: 0px;
         text-align: center;
         margin-left:auto;
         margin-right:auto;
         height:fit-content;
         width:100vw;
+        margin-top:0px;
 
     }
     
     .Tag {
-        line-height: 10vw;
+        line-height: 50px;
         background-image: none;
         width:95vw;
-        margin-left: 2.5vw;
         text-align: center;
         left:0 !important;
+        margin-right: auto;
+        margin-left: auto;
     }
     
     .Social {
         margin-right: auto;
         margin-left: auto;
-        padding-top:120px;
+        margin-top:10px;
     }
     
     .SocialItems, i {
