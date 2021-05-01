@@ -13,9 +13,9 @@ function Home() {
                     
                     <div id="Name"><strong>Bichu Ben Kuruvilla</strong></div>
                     <div id="Tagline">
-                        <div className="Tag Tag1">CS Undergrad @ GEC Thrissur</div>
-                        <div className="Tag Tag2">Tech Enthusiast</div>
-                        <div className="Tag Tag3">Passionate Programmer</div>
+                        <p className="Tag Tag1">CS Undergrad @ GEC Thrissur</p>
+                        <p className="Tag Tag2">Tech Enthusiast</p>
+                        <p className="Tag Tag3">Passionate Programmer</p>
                     </div>
 
 

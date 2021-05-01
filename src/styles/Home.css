@@ -38,7 +38,9 @@
 
 #Tagline {
     font-size: 1.2em;
-    padding-top: 20px;
+    padding-top: 10px;
+    width:100%;
+    text-align: left;
 }
 
 .Tag {
@@ -51,7 +53,6 @@
     background-position-y: 100%;
     background-position-x: 0%;
     background-repeat: no-repeat;
-    display: block;
 }
 
 .Tag1 {
@@ -112,10 +113,8 @@
     
 }
 
-#ProfileImgContainer:hover{
-    animation-name:RotatingGradient;
-    animation-duration: 0.4s;
-}
+
+
 
 @keyframes RotatingGradient {
     0% {background-image:linear-gradient(90deg, tomato, whitesmoke);}
@@ -149,7 +148,7 @@
 }
 
 .Social {
-    padding-top: 80px;
+    padding-top: 120px;
     display: flex;
     width:37%;
     margin-right: auto;
@@ -169,13 +168,19 @@
 
 
 
+@media screen and (min-width:1300px) {
+    #ProfileImgContainer:hover{
+        animation-name:RotatingGradient;
+        animation-duration: 0.4s;
+    }
+}
 
 
 
 @media screen and (max-width: 1300px) and (min-width: 1000px) {
 
     #Intro {
-       width:95vw;
+        width:95vw;
         padding-top: 100px !important;
         font: size 1.2em;
     }
@@ -184,10 +189,20 @@
         line-height: 4vw;
     }
 
+
+    #ProfileImgContainer:hover{
+        animation-name:RotatingGradient;
+        animation-duration: 0.4s;
+    }
+
 }
 
 
-@media screen and (max-width: 394px) {
+
+
+
+
+@media screen and (max-width:500px) {
     #Intro {
         width:100vw;
         font-size:1.1em;
@@ -234,96 +249,27 @@
         font-size: 1em;
         padding-top: 20px;
         text-align: center;
-    }
-    
-    .Tag {
-        line-height: 10vw;
-        background-image: none;
-        width:95vw;
-        text-align: center;
-        margin-left:-2vw;
-    }
-    
-    .Social {
-        margin-right: auto;
-        margin-left: auto;
-        width:50%;
-        padding-top: 60px;
-
-    }
-    
-    .SocialItems, i {
-        font-size: 1.1em;
-        text-align: center;
-    }
-    
-}
-
-
-
-
-@media screen and (min-width: 395px) and (max-width:500px) {
-    #Intro {
-        width:100vw;
-        font-size:1.1em;
-        display: grid;
-        grid-template-rows: auto atuo;
+        margin-left:auto;
+        margin-right:auto;
         height:fit-content;
-        margin-top:40px;
-        padding-top:100px !important;
-    }
+        width:100vw;
 
-    #IntroLeft {
-        width:90%;
-        padding-top:30px;
-        padding-left:0;
-        margin-left:4%;
-        text-align: center;
-        grid-row: 2/2;
-        
-    }
-
-    #IntroRight{
-        width:90vw;
-        grid-row:1/2;
-        margin-left:auto;
-        margin-right:auto;
-        margin-top:-17vh;
-    }
-    
-    #ProfileImgContainer {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #Name {
-        font-size:2em;
-        letter-spacing: 1.5px;
-        margin-left:auto;
-        margin-right:auto;
-        text-align: center;
-
-    }
-    
-    #Tagline {
-        font-size: 1em;
-        padding-top: 20px;
-        text-align: center;
     }
     
     .Tag {
         line-height: 10vw;
         background-image: none;
         width:95vw;
+        margin-left: 2.5vw;
         text-align: center;
-        margin-left:-8vw;
+        left:0 !important;
     }
     
     .Social {
         margin-right: auto;
         margin-left: auto;
         width:50%;
-        padding-top: 60px;
+        padding-top: 80px;
 
     }
     
@@ -332,6 +278,12 @@
         text-align: center;
     }
     
+
+    #ProfileImgContainer:active{
+        animation-name:RotatingGradient;
+        animation-duration: 0.35s;
+    }
+
 }
 
 
@@ -370,8 +322,10 @@
         width:30%;
         margin-left: auto;
         margin-right: auto;
+        padding: 1%;
     }
 
+  
     #Name {
         font-size:2em;
         letter-spacing: 1.5px;
@@ -383,26 +337,37 @@
     
     #Tagline {
         font-size: 1em;
-        padding-top: 20px;
+        padding-top: 0px;
         text-align: center;
+        margin-left:auto;
+        margin-right:auto;
+        height:fit-content;
+        width:100vw;
+
     }
     
     .Tag {
-        line-height: 3vw;
+        line-height: 10vw;
         background-image: none;
-        width:90%;
-        margin-left:-20px;   
+        width:95vw;
+        margin-left: 2.5vw;
         text-align: center;
-        padding-top:10px;
+        left:0 !important;
     }
     
     .Social {
         margin-right: auto;
         margin-left: auto;
+        padding-top:120px;
     }
     
     .SocialItems, i {
         font-size: 1.1em;
     }
     
+    #ProfileImgContainer:hover{
+        animation-name:RotatingGradient;
+        animation-duration: 0.4s;
+    }
+
 }

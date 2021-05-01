@@ -8,7 +8,7 @@ function Contact() {
             <div id="ContactHeading"><strong className="centerunderline">CONTACT</strong></div>
             <br/>
             <div id="ContactDesc">
-                We are just a ping away!
+                Lets get in touch
             </div>
 
             <div className="Social" id="ContactSocial">
