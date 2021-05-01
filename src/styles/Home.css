@@ -12,11 +12,10 @@
     flex-direction: row;
     justify-content: space-around;
     width: 90vw;
-    margin-top: 2vh;
+    margin-top: 40px;
     margin-left:auto;
     margin-right:auto;
     font-family: 'Questrial', sans-serif;
-    font-size: 1.3em;
 }
 
 #IntroLeft {
@@ -29,7 +28,7 @@
 }
 
 #Name {
-    font-size:2.4em;
+    font-size:50px;
     padding-top:20px;
     color:tomato;
     font-family: 'Kameron', serif;
@@ -37,7 +36,7 @@
 }
 
 #Tagline {
-    font-size: 1.2em;
+    font-size: 25px;
     padding-top: 10px;
     width:100%;
     text-align: left;
@@ -155,7 +154,7 @@
 }
 
 .SocialItems, i {
-    font-size: 1.2em;
+    font-size: 25px;
     width:25%;
     color:whitesmoke;
 }
@@ -181,7 +180,6 @@
     #Intro {
         width:95vw;
         padding-top: 100px !important;
-        font: size 1.2em;
     }
 
     .Tag {
@@ -213,7 +211,7 @@
    
     #Intro {
         width:100vw;
-        font-size:1.1em;
+        font-size:17px;
         display: grid;
         grid-template-rows: auto atuo;
         height:fit-content;
@@ -253,8 +251,8 @@
     }
     
     #Tagline {
-        font-size: 1em;
-        padding-top: 20px;
+        font-size: 18px;
+        padding-top: 10px;
         text-align: center;
         margin-left:auto;
         margin-right:auto;
@@ -283,7 +281,7 @@
     .SocialItems, i {
         margin-left:auto;
         margin-right:auto;
-        font-size: 1.1em;
+        font-size: 20px;
         text-align: center;
     }
     
@@ -303,7 +301,7 @@
     
     #Intro {
         width:100vw;
-        font-size:1.2em;
+        font-size:22px;
         display: grid;
         grid-template-rows: auto atuo;
         height:fit-content;
@@ -345,7 +343,7 @@
     }
     
     #Tagline {
-        font-size: 1em;
+        font-size: 20px;
         padding-top: 0px;
         text-align: center;
         margin-left:auto;
@@ -371,7 +369,7 @@
     }
     
     .SocialItems, i {
-        font-size: 1.1em;
+        font-size: 23px;
     }
     
     #ProfileImgContainer:hover{

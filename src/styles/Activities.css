@@ -11,7 +11,7 @@
 }
 
 #ActivitiesHeading {
-    font-size:1.8em;
+    font-size:28px;
     text-align: center;
     color:tomato;
     font-family: 'Kameron', serif;
@@ -50,7 +50,7 @@
     vertical-align: middle;
     text-align:center;
     font-family: 'Kameron', serif;
-    font-size:1.15em;
+    font-size:17px;
     text-align: center;;
     color:tomato;
     letter-spacing: 1.5px;
@@ -63,7 +63,7 @@
     padding-left: 3vw;
     text-align:left;
     font-family: 'Questrial', sans-serif;
-    font-size: 1em;
+    font-size: 15px;
 }
 
 .ActivityDesc p {
@@ -108,7 +108,7 @@ li {
 @media screen and (max-width:500px) {
    
     #ActivitiesHeading {
-        font-size: 1.6em;
+        font-size: 24px;
     }
    
     .ActivityContainer {
@@ -124,7 +124,7 @@ li {
         border-bottom:2px solid rgba(30,30,30,0.1);
         margin-left:auto;
         margin-right:auto;
-        font-size:1em;
+        font-size:15px;
     }
 
     .ActivityDesc{
@@ -132,7 +132,7 @@ li {
         border-left:none;
         margin-left:auto;
         margin-right:auto;
-        font-size:0.9em;
+        font-size:13px;
     }
 
     .PlatformsLink {

@@ -11,7 +11,7 @@
 }
 
 #AboutHeading {
-    font-size:1.8em;
+    font-size:28px;
     text-align: center;
     color:tomato;
     font-family: 'Kameron', serif;
@@ -28,7 +28,7 @@
     padding:10px;
     background-color:rgba(30,30,30,0.03);
     font-family: 'Questrial', sans-serif;
-    font-size:1em;
+    font-size:15px;
 }
 
 #AboutText{
@@ -42,6 +42,8 @@
     margin-top:130px;
     padding-top:8px;
     padding-bottom:10px;
+    padding-left:4px;
+    padding-right:4px;
     border-radius:5px;
     margin-top:30px !important;
     width:10%;
@@ -49,15 +51,17 @@
     text-align: center;
     background-color:rgba(255, 99, 71,0.9);
     color:whitesmoke;
+    font-size:15px;
 }
 
 #CV:hover{
     background-color:rgba(255, 99 , 71, 1);
 }
 
-#CV.i:hover {
-    color:whitesmoke !important;   
+#CV i {
+    font-size:20px;
 }
+
 
 
 #AboutOpening{
@@ -71,7 +75,7 @@
 
 .AboutQuote{
     color:tomato;
-    font-size: 1.3em;
+    font-size: 20px;
 }
 
 
@@ -82,16 +86,21 @@
 @media screen and (max-width:500px) {
     #AboutContent {
         width:85%;
-        font-size:0.9em;
+        font-size:13px;
         margin-top:40px;
     }
 
     #AboutHeading {
-        font-size: 1.6em;
+        font-size: 24px;
     }
 
     #CV {
         width:20%;
+        font-size:13px;
+    }
+
+    #CV i {
+        font-size: 15px;
     }
 
     #AboutText{
@@ -115,14 +124,14 @@
     }
 
     .AboutQuote{
-        font-size: 1.2em;
+        font-size: 17px;
     }
 }
 
 @media screen and (min-width:501px)  and (max-width:1000px){
     #AboutContent {
         width:80%;
-        font-size:1em;
+        font-size:15px;
     }
 
     #CV {

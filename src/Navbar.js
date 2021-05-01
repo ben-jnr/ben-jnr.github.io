@@ -5,9 +5,9 @@ function Navbar() {
 
     function clickHandler(id) {
         window.scrollTo(0,document.getElementById(id).offsetTop-100);
-        document.getElementById("PhoneMenu").style.left = "-50%";
         document.getElementsByClassName("ActiveNav")[0].classList.remove("ActiveNav");
         document.getElementsByClassName(id+ "Nav")[0].classList.add("ActiveNav");
+        document.getElementById("PhoneMenu").style.left = "-50%";
     }
 
 

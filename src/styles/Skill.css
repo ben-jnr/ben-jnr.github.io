@@ -10,7 +10,7 @@
 }
 
 #SkillsHeading {
-    font-size:1.8em;
+    font-size:28px;
     text-align: center;
     color:tomato;
     font-family: 'Kameron', serif;
@@ -48,7 +48,7 @@
 
 .SkillContainerHeading {
     font-family: 'Kameron', serif;
-    font-size:1.15em;
+    font-size:17px;
     text-align: center;
     color:tomato;
 }
@@ -74,7 +74,7 @@
     padding-top:10px;   
     width: 100%;
     font-family: 'Questrial', sans-serif;
-    font-size:1em;
+    font-size:15px;
 }
 
 
@@ -123,7 +123,7 @@
     }
 
     #SkillsHeading {
-        font-size: 1.6em;
+        font-size: 24px
     }
 
     .SkillContainer {
@@ -139,12 +139,12 @@
     }
 
     .SkillDesc {
-        font-size: 0.8em;
+        font-size: 13px;
         padding-right: 20px;
     }
     
     .SkillContainerHeading {
-        font-size:1em;
+        font-size:15px;
     }
 }
 
@@ -159,7 +159,7 @@
     }
 
     #SkillsHeading {
-        font-size: 1.6em;
+        font-size: 24px;
     }
 
     .SkillContainer {
@@ -176,12 +176,12 @@
     }
 
     .SkillDesc {
-        font-size: 0.8em;
+        font-size: 13px;
         padding-right: 20px;
     }
     
     .SkillContainerHeading {
-        font-size:1em;
+        font-size:15px;
     }
 }
 

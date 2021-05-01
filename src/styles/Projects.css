@@ -11,7 +11,7 @@
 }
 
 #ProjectsHeading {
-    font-size:1.8em;
+    font-size:28px;
     text-align: center;
     color:tomato;
     font-family: 'Kameron', serif;
@@ -47,7 +47,7 @@
 
 .ProjectContainerHeading {
     font-family: 'Kameron', serif;
-    font-size:1.15em;
+    font-size:17px;
     text-align: center;
     padding-top:30px;
     color:tomato;
@@ -58,7 +58,7 @@
     margin-left:10%;
     text-align: left;
     font-family: 'Questrial', sans-serif;
-    font-size: 1em;
+    font-size: 15px;
 }
 
 
@@ -73,7 +73,7 @@
     }
 
     #ProjectsHeading {
-        font-size: 1.6em;
+        font-size: 24px;
     }
 
     .ProjectContainer {
@@ -87,12 +87,12 @@
     }
 
     .ProjectDesc {
-        font-size:0.9em;
+        font-size:13px;
         line-height: 20px;
     }
 
     .ProjectContainerHeading {
-        font-size: 1em;
+        font-size: 15px;
     }
 
 }
