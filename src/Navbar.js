@@ -6,11 +6,53 @@ function Navbar() {
 
     const [flag,setFlag] = useState(0);
 
+    function scrollHandler() {
+        if(window.scrollY < document.getElementById("About").offsetTop-300) {
+            document.getElementsByClassName("ActiveNav")[0].classList.remove("ActiveNav");
+            document.getElementsByClassName("ActiveNav")[0].classList.remove("ActiveNav");
+            document.getElementsByClassName("HomeNav")[0].classList.add("ActiveNav");
+            document.getElementsByClassName("HomeNav")[1].classList.add("ActiveNav");
+        }
+        else if(window.scrollY < document.getElementById("Skills").offsetTop-300) {
+            document.getElementsByClassName("ActiveNav")[0].classList.remove("ActiveNav");
+            document.getElementsByClassName("ActiveNav")[0].classList.remove("ActiveNav");
+            document.getElementsByClassName("AboutNav")[0].classList.add("ActiveNav");
+            document.getElementsByClassName("AboutNav")[1].classList.add("ActiveNav");
+        }
+        else if(window.scrollY < document.getElementById("Projects").offsetTop-300) {
+            document.getElementsByClassName("ActiveNav")[0].classList.remove("ActiveNav");
+            document.getElementsByClassName("ActiveNav")[0].classList.remove("ActiveNav");
+            document.getElementsByClassName("SkillsNav")[0].classList.add("ActiveNav");
+            document.getElementsByClassName("SkillsNav")[1].classList.add("ActiveNav");
+        }
+        else if(window.scrollY < document.getElementById("Activities").offsetTop-300) {
+            document.getElementsByClassName("ActiveNav")[0].classList.remove("ActiveNav");
+            document.getElementsByClassName("ActiveNav")[0].classList.remove("ActiveNav");
+            document.getElementsByClassName("ProjectsNav")[0].classList.add("ActiveNav");
+            document.getElementsByClassName("ProjectsNav")[1].classList.add("ActiveNav");
+        }
+        else if(window.scrollY < document.getElementById("Contact").offsetTop-500) {
+            document.getElementsByClassName("ActiveNav")[0].classList.remove("ActiveNav");
+            document.getElementsByClassName("ActiveNav")[0].classList.remove("ActiveNav");
+            document.getElementsByClassName("ActivitiesNav")[0].classList.add("ActiveNav");
+            document.getElementsByClassName("ActivitiesNav")[1].classList.add("ActiveNav");
+        }
+        else {
+            document.getElementsByClassName("ActiveNav")[0].classList.remove("ActiveNav");
+            document.getElementsByClassName("ActiveNav")[0].classList.remove("ActiveNav");
+            document.getElementsByClassName("ContactNav")[0].classList.add("ActiveNav");
+            document.getElementsByClassName("ContactNav")[1].classList.add("ActiveNav");
+        }
+    }
+
+
     function clickHandler(id) {
         window.scrollTo(0,document.getElementById(id).offsetTop-100);
         document.getElementsByClassName("ActiveNav")[0].classList.remove("ActiveNav");
+        document.getElementsByClassName("ActiveNav")[0].classList.remove("ActiveNav");  
         document.getElementsByClassName(id+ "Nav")[0].classList.add("ActiveNav");
-        setFlag(0);
+        document.getElementsByClassName(id+ "Nav")[1].classList.add("ActiveNav");
+        setFlag(0); 
     }
 
 
@@ -23,7 +65,7 @@ function Navbar() {
 
 
     useEffect(()=>{
-        if(flag == 1)
+        if(flag === 1)
             document.getElementById("PhoneMenu").style.left = "0%";
         else    
             document.getElementById("PhoneMenu").style.left = "-50%";
@@ -31,32 +73,8 @@ function Navbar() {
 
 
     useEffect(()=>{
-        document.addEventListener("scroll", () => {
-            if(window.scrollY < document.getElementById("About").offsetTop-300) {
-                document.getElementsByClassName("ActiveNav")[0].classList.remove("ActiveNav");
-                document.getElementsByClassName("HomeNav")[0].classList.add("ActiveNav");
-            }
-            else if(window.scrollY < document.getElementById("Skills").offsetTop-300) {
-                document.getElementsByClassName("ActiveNav")[0].classList.remove("ActiveNav");
-                document.getElementsByClassName("AboutNav")[0].classList.add("ActiveNav");
-            }
-            else if(window.scrollY < document.getElementById("Projects").offsetTop-300) {
-                document.getElementsByClassName("ActiveNav")[0].classList.remove("ActiveNav");
-                document.getElementsByClassName("SkillsNav")[0].classList.add("ActiveNav");
-            }
-            else if(window.scrollY < document.getElementById("Activities").offsetTop-300) {
-                document.getElementsByClassName("ActiveNav")[0].classList.remove("ActiveNav");
-                document.getElementsByClassName("ProjectsNav")[0].classList.add("ActiveNav");
-            }
-            else if(window.scrollY < document.getElementById("Contact").offsetTop-500) {
-                document.getElementsByClassName("ActiveNav")[0].classList.remove("ActiveNav");
-                document.getElementsByClassName("ActivitiesNav")[0].classList.add("ActiveNav");
-            }
-            else {
-                document.getElementsByClassName("ActiveNav")[0].classList.remove("ActiveNav");
-                document.getElementsByClassName("ContactNav")[0].classList.add("ActiveNav");
-            }
-        });
+        scrollHandler();
+        document.addEventListener("scroll", scrollHandler);
     },[]);
    
         

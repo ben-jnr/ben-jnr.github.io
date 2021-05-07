@@ -31,7 +31,7 @@
 }
 
 #ContactSocial {
-    margin-top:-80px; 
+    margin-top:-110px; 
     margin-left:42.3%;
     width:15% !important;
     text-align: center  ;
@@ -40,6 +40,45 @@
 #ContactSocial .SocialItems a i {
     font-size:25px !important;
 }
+
+
+#Contact-Mail {
+    margin-top:40px;
+    width:100%;
+    text-align: center; 
+    color:whitesmoke;
+}
+
+
+#Contact-Mail a{
+    color: whitesmoke;
+    font-family: 'Questrial', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+#Contact-Mail a:hover{
+    color: tomato
+}
+
+#Contact-Phone {
+    width:100%;
+    text-align: center; 
+    color:whitesmoke;
+}
+
+
+#Contact-Phone a{
+    color: whitesmoke;
+    font-family: 'Questrial', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+#Contact-Phone a:hover{
+    color: tomato
+}
+
 
 
 @media screen and (max-width:500px) {
@@ -54,12 +93,24 @@
     
     #ContactSocial {
         width:45% !important;
-        margin-left:27.5%;
-        margin-top:-50px !important;
+        margin-left:27%;
+        margin-top:-80px !important;
     }
 
     #ContactSocial .SocialItems a i {
         font-size:20px !important;
+    }
+
+    #Contact-Mail {
+        margin-top:35px;
+    }
+
+    #Contact-Mail a{
+        font-size: 13px;
+    }
+
+    #Contact-Phone a{
+        font-size: 13px;
     }
 
 }
@@ -77,8 +128,24 @@
     
     #ContactSocial {
         width:25% !important;
-        margin-top:-80px;
-        margin-left:37.5%;
+        margin-top:-95px;
+        margin-left:37%;
+    }
+
+    #ContactSocial .SocialItems a i {
+        font-size:20px !important;
+    }
+    
+    #Contact-Mail {
+        margin-top: 40px;
+    }
+
+    #Contact-Mail a{
+        font-size: 13px;
+    }
+
+    #Contact-Phone a{
+        font-size: 13px;
     }
 
 }
